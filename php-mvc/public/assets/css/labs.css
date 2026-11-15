@@ -1,0 +1,14 @@
+.blog-list { display: grid; gap: 1rem; margin-top: 1.5rem; }
+.blog-image { max-width: 540px; width: 100%; height: auto; margin: 1rem 0; }
+.data-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+.data-table td, .data-table th { border: 1px solid #888; padding: .7rem; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+.data-table th { color: #fff; background: #1f3f97; }
+.pagination { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem; margin-top: 1rem; }
+.page-number { padding: .5rem; background: #fff; }
+.page-number[aria-current] { background: #1f3f97; color: #fff; }
+.window-frame__titlebar { overflow-wrap: anywhere; }
+.account-bar { padding: .7rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+.modal { max-width: 680px; width: calc(100% - 32px); padding: 0; border: 2px outset #eee; background: #d4d0c8; }
+.modal::backdrop { background: #0008; }
+.modal form { padding: 1rem; }
+.comment { border-top: 1px solid #888; margin-top: 1rem; padding-top: .5rem; }

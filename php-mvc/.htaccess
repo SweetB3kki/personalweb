@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^(app|config|storage|database|reports|examples)(/|$) - [F,L]
+RewriteRule ^admin/([^/]+)/([^/]+)/?$ index.php?controller=$1&action=$2&admin_area=1 [QSA,L]
+
+RewriteRule ^index\.php/?$ index.php?controller=page&action=index [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^$ index.php?controller=page&action=index [QSA,L]
+RewriteRule ^([^/]+)/?$ index.php?controller=$1&action=index [QSA,L]
+RewriteRule ^([^/]+)/([^/]+)/?$ index.php?controller=$1&action=$2 [QSA,L]

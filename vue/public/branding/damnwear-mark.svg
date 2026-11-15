@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DamnWear mark">
+  <path d="M18 10L24 18L20 20L13 15Z" fill="#fff"/>
+  <path d="M46 10L40 18L44 20L51 15Z" fill="#fff"/>
+  <path d="M18 20H46L52 30L48 44L36 54H28L16 44L12 30Z" fill="#fff" stroke="#111" stroke-width="4" stroke-linejoin="bevel"/>
+  <path d="M20 22L12 12L12 24L20 28Z" fill="#111"/>
+  <path d="M44 22L52 12L52 24L44 28Z" fill="#111"/>
+  <path d="M20 20H44L50 30L46 42L36 48H28L18 42L14 30Z" fill="#111"/>
+  <path d="M25 34H39L42 40L34 44H30L22 40Z" fill="#fff"/>
+  <circle cx="28" cy="30" r="2" fill="#fff"/>
+  <circle cx="36" cy="30" r="2" fill="#fff"/>
+</svg>
